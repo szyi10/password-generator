@@ -1,0 +1,21 @@
+.settings {
+  width: 100%;
+  margin-top: -10px;
+}
+
+.button {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--c-accent);
+  color: var(--c-primary);
+  cursor: pointer;
+  transition: 0.2s ease;
+  font-weight: 500;
+}
+
+.button:hover {
+  background-color: var(--c-accent-hover);
+}
